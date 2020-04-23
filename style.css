@@ -1,0 +1,50 @@
+* {
+    border: 2px solid cornflowerblue;
+    margin: 5px;
+    padding: 3px;
+}
+    
+html, body {
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+nav {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+h1 {
+margin-right: auto;
+flex-grow: 3;
+}
+
+.content {
+    display: flex;
+    flex: auto;
+}
+
+p:first-child {
+    flex-grow: 3;
+}
+
+p:last-child {
+    flex-grow: 1;
+}
+
+.footer {
+    display: flex;
+    justify-content: flex-end;
+}
+
+footer {
+    margin-right: auto;
+}
